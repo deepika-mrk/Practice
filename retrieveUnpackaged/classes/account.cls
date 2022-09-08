@@ -2,7 +2,7 @@ public class account {
     public integer balance;
     public account()
     {
-        balance = 500;
+        balance = 66600;
     }
         public account(integer bal)
         {
@@ -22,7 +22,7 @@ public class account {
         balance = balance - withdraw;
         if(withdraw > balance)
         {
-          system.debug(' Insufficient balance'); 
+          system.debug('  not Insufficient balance'); 
           return;  
         }
         balance = balance- withdraw;
